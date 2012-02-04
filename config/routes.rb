@@ -1,6 +1,4 @@
 Pcard::Application.routes.draw do
-  resources :recipients
-
   root :to => 'cards#index'
 
   resources :designs
