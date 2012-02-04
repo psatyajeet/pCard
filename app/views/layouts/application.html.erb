@@ -10,7 +10,7 @@
 	<header>
         <%= image_tag("crest.gif", :alt => "Princeton Crest", :class => "crest", :size => "72x80") %>
           <ul class = "nav nav-pills">
-            <li><%= link_to "Home", '#' %></li>
+            <li><%= link_to "Home", {:controller => 'cards':action=> 'index'} %></li>
             <li><%= link_to "Create", '#' %></li>
             <li><%= link_to "About", '#' %></li>
           </ul>
