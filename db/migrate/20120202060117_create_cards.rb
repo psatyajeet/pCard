@@ -3,6 +3,7 @@ class CreateCards < ActiveRecord::Migration
     create_table :cards do |t|
       t.string :from
       t.string :to
+        t. string :email
       t.text :message
       t.string :bg
       t.string :design
